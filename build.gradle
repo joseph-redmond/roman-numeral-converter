@@ -14,6 +14,14 @@ configurations {
     }
 }
 
+jar {
+    manifest {
+        attributes("Implementation-Title": project.name,
+                "Implementation-Version": version,
+                "Main-Class": "com.josephredmond.romanNumeralConverter.IntegertoromanApplication")
+    }
+}
+
 repositories {
     mavenCentral()
 }
