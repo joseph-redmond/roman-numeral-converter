@@ -1,0 +1,19 @@
+h1 {
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+img {
+    height: 40px;}
+
+.success {
+    display: none;
+    background: #E1F8ED;
+    padding: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+&.is-active {
+     display: block;
+ }
+}
