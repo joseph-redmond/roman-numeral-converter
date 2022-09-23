@@ -6,14 +6,3 @@ h1 {
 
 img {
     height: 40px;}
-
-.success {
-    display: none;
-    background: #E1F8ED;
-    padding: 20px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-&.is-active {
-     display: block;
- }
-}

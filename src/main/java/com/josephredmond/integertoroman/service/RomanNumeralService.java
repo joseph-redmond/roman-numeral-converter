@@ -7,10 +7,10 @@ import java.util.HashMap;
 
 @Service
 @Scope("singleton")
-public class RomanNumeralConverterService {
+public class RomanNumeralService {
     private HashMap<Integer, String> romanNumerals = new HashMap<Integer, String>();
 
-    public RomanNumeralConverterService() {
+    public RomanNumeralService() {
         this.fillHashMap();
     }
     private boolean fillHashMap() {
@@ -59,7 +59,6 @@ public class RomanNumeralConverterService {
         }
     }
 
-    // Convert from roman numeral to integer
     public int convertFromRoman(String romanNumeral) {
         int number = 0;
         int i = 0;
